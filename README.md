@@ -1,2 +1,7 @@
 # web-330
-Enterprise JavaScripting ll
+
+<h1>WEB 330 Enterprise JavaScript ll</h1>
+<h2>Contributors</h2>
+*Richard Krasso
+*George Taylor
+

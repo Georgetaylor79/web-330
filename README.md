@@ -1,5 +1,5 @@
 # WEB 330 Enterprise JavaScript ll
 ## Contributors
-* Richard Krasso
+* Professor Krasso
 * George Taylor
 

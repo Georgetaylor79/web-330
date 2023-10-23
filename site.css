@@ -106,3 +106,10 @@ a{
 #icon-mode:hover {
     cursor: pointer;
 }
+#icon-text {
+    padding-left: 10px;
+}
+
+.pull-right {
+    float: right;
+}

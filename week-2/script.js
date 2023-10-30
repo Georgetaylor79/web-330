@@ -15,9 +15,9 @@ function checkPalindrome(txt){
 
     for(i = 0; i < halfLen; i++){
         if( txt_new[i] !== txt_new[len-1-i]){
-            result.textContent = "Nope! Not a palindrome";
+            result.textContent = "is not a palindrome";
             return;
         }
-        result.textContent = "Yes! It's a palindrome"
+        result.textContent = "is a palindrome"
     }
 }

@@ -21,3 +21,21 @@ h1 {
     color: #4F3674;
     font-weight: 400;
 }
+
+.checker-title {
+    text-align: center;
+    font-size: 2em;
+    color: #4F3674;
+    font-weight: 400;
+}
+
+.checker-content{
+    padding: 2px, 16px;
+    font: 28px;
+}
+
+.btn{
+    width: 50%;
+    background-color: #4F3674;
+    color: white;
+}

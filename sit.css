@@ -39,32 +39,24 @@ body {
     font-size: 28px;
 }
 
-/*
-    Styling for app-header.
-*/
+
 .app-header {
     font-size: 28px;
     text-align: center;
 }
 
-/* 
-    Styling for the results-container.
-*/
+
 #results-container {
     width: 600px;
     margin: 3% auto 0;
 }
 
-/* 
-    Adds width of 100% to the .full-width class
-*/
+
 .full-width {
     width: 100%;
 }
 
-/* 
-    Form styling; changes display to inline-grid and the grid-template-columns to auto.
-*/
+
 .form {
     display: inline-grid;
     grid-template-columns: auto;
@@ -94,9 +86,7 @@ body {
     padding-left: 10px;
 }
 
-/* 
-    Icon styling for theme toggle switch, floats right.
-*/
+
 .pull-right {
     float: right;
 }

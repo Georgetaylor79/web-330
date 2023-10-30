@@ -1,6 +1,6 @@
 setDefaultTheme();
 
-// Logging the current theme to make sure all is working correctly.
+
 console.log(`The current theme is the ${document.body.classList}.`);
 
 // This function sets the theme based on the user's browser storage.
@@ -48,6 +48,6 @@ function toggleMode(x)
         localStorage.setItem('iconMode', 'fa-toggle-on')
     }
 
-    // Log the theme change in the console to make sure all is working properly.
+ 
     console.log("The theme has been changed to " + document.body.classList.value + ".");
 }

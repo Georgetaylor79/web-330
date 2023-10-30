@@ -4,12 +4,10 @@
     width: 600px;
     margin: 3% auto 0;
     background-color: var(--card-background-color);
-    /* display: inline; */
+    
 }
 
-/* 
-    Centers text, changes color, applies font weight and font size to the .card-title. 
-*/
+
 .card-title {
     text-align: center;
     font-size: 2em;
@@ -18,9 +16,6 @@
     
 }
 
-/* 
-    Applies top/bottom padding of 2px and left/right padding of 16px
-*/
 .card-content {
     padding: 2px 16px;
 }
@@ -32,10 +27,6 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* 
-    Styling for the .btn class, removes border and text-decoration, adds margin and padding,
-    changes font-size, changes color, center aligns, changes display to inline-block, and changes cursor to pointer.
-*/
 .btn {
     border: none;
     text-align: center;
@@ -84,9 +75,7 @@ i {
     box-sizing: border-box;
 }
 
-/* 
-    Styling for dropdown menus.
-*/
+
 .drop-down-menu {
     padding: 12px 20px;
     margin: 8px 0;

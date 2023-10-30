@@ -44,7 +44,7 @@ h1 {
 }
 
 .btn{
-    position: left;
+    width: 25%;
     background-color: #4F3674;
     color: white;
 }

@@ -24,10 +24,8 @@ h1 {
 }
 
 .card {
-    text-align: center;
-    font-size: 2em;
-    color: #4F3674;
-    font-weight: 400;
+    padding: 2px, 16px;
+    font: 28px;
    
 }
 

@@ -1,0 +1,29 @@
+
+/* 
+    Styling for danger text.
+*/
+.danger {
+    float: right;
+    color: #df546a;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+/* 
+    Styling for danger text.
+*/
+.danger-right {
+    float: right;
+    color: #df546a;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+/* 
+    Styling for form labels. 
+*/
+.form-label {
+    display: inline-block;
+    padding-top: 1rem;
+}

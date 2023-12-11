@@ -1,0 +1,6 @@
+/* 
+    Remove bullet
+*/
+li {
+    list-style-type: none;
+}

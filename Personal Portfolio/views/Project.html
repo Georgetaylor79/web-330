@@ -1,4 +1,3 @@
-<h1>THIS IS PROJECT Page</h1>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,3 +9,120 @@
 
 
 </head>
+ <!--design for grids -->
+<style>
+    .grid-container {
+      display: grid;
+      column-gap: 50px;
+      grid-template-columns: auto auto auto;
+      background-color: #f7921f;
+      padding: 10px;
+    }
+    
+    .grid-item {
+      background-color: rgba(255, 255, 255, 0.8);
+      border: 1px solid rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*divider of menu list*/
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #f7921f;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #f7921f;
+    color: white;
+  }
+
+  .name{
+    text-align: center;
+  }
+    </style>
+
+
+
+
+
+
+<header>
+
+
+
+    <ul>
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="views/about.html">About</a></li>
+      <li><a href="views/resume.html">Resume</a></li>
+      <li><a href="views/Project.html">Project</a></li>
+      <li><a class="active" href="#home">Diagram</a></li>
+      <li><a href="#news">Testing</a></li>
+      <li><a href="#contact">Bucklet List</a></li>
+      <li><a href="#about">Links</a></li>
+    </ul>
+    
+    <h1>Projects:</h1>
+
+<p>List of all projects: Current or Future</p>
+
+<div class="grid-container">
+  <div class="grid-item"><a href="#">WEB 231 Landing Page</a></div>
+  <div class="grid-item"><a href="#">WEB 330 Landing Page</a></div>
+  <div class="grid-item"><a href="#">WEB 420's Capstone Project</a></div>  
+  <div class="grid-item"><a href="#">WEB 425 Composer App</a></div>
+  <div class="grid-item"><a href="#">WEB 425 GPA Calculator App</a></div>
+  <div class="grid-item"><a href="#">WEB 425 In-N-Out-Books</a></div>  
+  <div class="grid-item"><a href="#">WEB 450 nodebucket</a></div>
+  <div class="grid-item"><a href="#">WEB 450 Bob's Computer Repair Shop</a></div>
+  <div class="grid-item">N/A</div>  
+</div>
+    
+</header>
+
+</body>
+</html>
+
+<footer> <p>
+    <a href="https://georgetaylor79.github.io/web-330/">GitHub Repositories</a>
+    <a href="https://www.bellevue.edu/degrees/bachelor/web-development-bs/">Bellevue Universities Web Development Degree</a>
+    <a href="https://www.youtube.com/@bellevueuniversity/">Bellevue University YouTube Channel</a>
+    <a href="https://github.com/buwebdev/web-330/">Bellevue University Web 330</a>
+  
+  
+  </p>
+  </footer>

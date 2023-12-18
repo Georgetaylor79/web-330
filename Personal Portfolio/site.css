@@ -36,3 +36,14 @@ ul {
   li:last-child {
     border-right: none;
   }
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #f7921f;
+    color: white;
+  }
+
+  .name{
+    text-align: center;
+  }
